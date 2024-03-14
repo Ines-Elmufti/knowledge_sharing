@@ -70,5 +70,5 @@ plugins:
             show_source: true
 
 nav:
-  - Home: index.md
+  - Introduction: intro_page/intro.md
   - scripts: scripts/compute_rmsd.md

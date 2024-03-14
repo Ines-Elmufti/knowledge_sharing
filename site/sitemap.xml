@@ -8,6 +8,13 @@
         <xhtml:link rel="alternate" hreflang="fr" href="Nonefr/"/>
     </url>
     <url>
+        <loc>Noneintro_page/intro/</loc>
+        <lastmod>2024-03-14</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneintro_page/intro/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="Nonefr/intro_page/intro/"/>
+    </url>
+    <url>
         <loc>Nonescripts/compute_rmsd/</loc>
         <lastmod>2024-03-14</lastmod>
         <changefreq>daily</changefreq>
@@ -20,6 +27,13 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="fr" href="Nonefr/"/>
         <xhtml:link rel="alternate" hreflang="en" href="None"/>
+    </url>
+    <url>
+        <loc>Nonefr/intro_page/intro/</loc>
+        <lastmod>2024-03-14</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="Nonefr/intro_page/intro/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneintro_page/intro/"/>
     </url>
     <url>
         <loc>Nonefr/scripts/compute_rmsd/</loc>

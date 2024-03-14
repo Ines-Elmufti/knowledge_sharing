@@ -9,8 +9,8 @@
       
       
       
-        <link rel="prev" href="../../intro_page/intro/">
       
+        <link rel="next" href="../../scripts/compute_rmsd/">
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
@@ -18,7 +18,7 @@
     
     
       
-        <title>scripts - My Docs</title>
+        <title>Introduction - My Docs</title>
       
     
     
@@ -74,7 +74,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#compute_rmsd" class="md-skip">
+        <a href="#aligning-two-models-and-computing-rmsd" class="md-skip">
           Skip to content
         </a>
       
@@ -108,7 +108,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              scripts
+              Introduction
             
           </span>
         </div>
@@ -161,7 +161,7 @@
           </li>
         
           <li class="md-select__item">
-            <a href="../../fr/scripts/compute_rmsd/" hreflang="fr" class="md-select__link">
+            <a href="../../fr/intro_page/intro/" hreflang="fr" class="md-select__link">
               Français
             </a>
           </li>
@@ -229,9 +229,11 @@
         
   
   
+    
   
-    <li class="md-tabs__item">
-      <a href="../../intro_page/intro/" class="md-tabs__link">
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="./" class="md-tabs__link">
         
   
     
@@ -246,11 +248,9 @@
         
   
   
-    
   
-  
-    <li class="md-tabs__item md-tabs__item--active">
-      <a href="./" class="md-tabs__link">
+    <li class="md-tabs__item">
+      <a href="../../scripts/compute_rmsd/" class="md-tabs__link">
         
   
     
@@ -301,26 +301,6 @@
       
   
   
-  
-  
-    <li class="md-nav__item">
-      <a href="../../intro_page/intro/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Introduction
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
     
   
   
@@ -330,12 +310,14 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
           
   
   <span class="md-ellipsis">
-    scripts
+    Introduction
   </span>
   
 
@@ -346,7 +328,7 @@
         
   
   <span class="md-ellipsis">
-    scripts
+    Introduction
   </span>
   
 
@@ -358,6 +340,8 @@
   
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -366,18 +350,27 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#compute_rmsd" class="md-nav__link">
+  <a href="#introduction" class="md-nav__link">
     <span class="md-ellipsis">
-      compute_rmsd
+      Introduction
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#compute_rmsd.compute_rmsd_value" class="md-nav__link">
+  <a href="#aligning-models" class="md-nav__link">
     <span class="md-ellipsis">
-      compute_rmsd_value
+      Aligning Models
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rmsd-calculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      RMSD Calculation
     </span>
   </a>
   
@@ -387,6 +380,26 @@
   
 </nav>
       
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../scripts/compute_rmsd/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    scripts
+  </span>
+  
+
+      </a>
     </li>
   
 
@@ -406,228 +419,16 @@
                   
 
 
-  <h1>scripts</h1>
-
-<p>(Please note that this page exists only in english. check home page to test translation feature)
-</p>
-
-
-<div class="doc doc-object doc-module">
-
-
-
-<a id="compute_rmsd"></a>
-  <div class="doc doc-contents first">
-
-  
-
-  <div class="doc doc-children">
-
-
-
-
-
-
-
-
-
-
-<div class="doc doc-object doc-function">
-
-
-
-<h2 id="compute_rmsd.compute_rmsd_value" class="doc doc-heading">
-          <code class="highlight language-python"><span class="n">compute_rmsd_value</span><span class="p">(</span><span class="n">input_model1</span><span class="p">,</span> <span class="n">input_model2</span><span class="p">,</span> <span class="n">alignment_chain_ids</span><span class="p">)</span></code>
-
-</h2>
-
-
-  <div class="doc doc-contents ">
-  
-      <p>Align models and compute RMSD value .</p>
-
-
-
-  <p><strong>Parameters:</strong></p>
-  <table>
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Type</th>
-        <th>Description</th>
-        <th>Default</th>
-      </tr>
-    </thead>
-    <tbody>
-        <tr>
-          <td><code>input_model1</code></td>
-          <td>
-                <code>model</code>
-          </td>
-          <td>
-            <div class="doc-md-description">
-              <p>First Bioblocks structure model</p>
-            </div>
-          </td>
-          <td>
-              <em>required</em>
-          </td>
-        </tr>
-        <tr>
-          <td><code>input_model2</code></td>
-          <td>
-                <code>int</code>
-          </td>
-          <td>
-            <div class="doc-md-description">
-              <p>Second Bioblocks structure model.</p>
-            </div>
-          </td>
-          <td>
-              <em>required</em>
-          </td>
-        </tr>
-        <tr>
-          <td><code>alignment_chain_ids</code></td>
-          <td>
-                <code>list</code>
-          </td>
-          <td>
-            <div class="doc-md-description">
-              <p>shared chain used for alignment</p>
-            </div>
-          </td>
-          <td>
-              <em>required</em>
-          </td>
-        </tr>
-    </tbody>
-  </table>
-
-
-
-  <p><strong>Raises:</strong></p>
-  <table>
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-        <tr>
-          <td>
-                <code>ValueError</code>
-          </td>
-          <td>
-            <div class="doc-md-description">
-              <p>If any chain ids in the input models are no identical.</p>
-            </div>
-          </td>
-        </tr>
-    </tbody>
-  </table>
-
-
-
-  <p><strong>Returns:</strong></p>
-  <table>
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-        <tr>
-          <td>
-                <code><span title="bioblocks.blocks.model.Model">Model</span></code>
-          </td>
-          <td>
-            <div class="doc-md-description">
-              <p>A new model in which all chains are reindexed consistently.</p>
-            </div>
-          </td>
-        </tr>
-    </tbody>
-  </table>
-
-          <details class="quote">
-            <summary>Source code in <code>scripts/compute_rmsd.py</code></summary>
-            <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 8</span>
-<span class="normal"> 9</span>
-<span class="normal">10</span>
-<span class="normal">11</span>
-<span class="normal">12</span>
-<span class="normal">13</span>
-<span class="normal">14</span>
-<span class="normal">15</span>
-<span class="normal">16</span>
-<span class="normal">17</span>
-<span class="normal">18</span>
-<span class="normal">19</span>
-<span class="normal">20</span>
-<span class="normal">21</span>
-<span class="normal">22</span>
-<span class="normal">23</span>
-<span class="normal">24</span>
-<span class="normal">25</span>
-<span class="normal">26</span>
-<span class="normal">27</span>
-<span class="normal">28</span>
-<span class="normal">29</span>
-<span class="normal">30</span>
-<span class="normal">31</span>
-<span class="normal">32</span>
-<span class="normal">33</span>
-<span class="normal">34</span>
-<span class="normal">35</span>
-<span class="normal">36</span>
-<span class="normal">37</span>
-<span class="normal">38</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">def</span> <span class="nf">compute_rmsd_value</span><span class="p">(</span><span class="n">input_model1</span><span class="p">:</span> <span class="n">Model</span><span class="p">,</span> <span class="n">input_model2</span><span class="p">:</span> <span class="n">Model</span><span class="p">,</span> <span class="n">alignment_chain_ids</span><span class="p">:</span><span class="nb">list</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Model</span><span class="p">:</span>
-<span class="w">    </span><span class="sd">&quot;&quot;&quot;Align models and compute RMSD value .</span>
-
-<span class="sd">    Args:</span>
-<span class="sd">        input_model1 (model): First Bioblocks structure model</span>
-<span class="sd">        input_model2 (int): Second Bioblocks structure model.</span>
-<span class="sd">        alignment_chain_ids: shared chain used for alignment</span>
-
-<span class="sd">    Raises:</span>
-<span class="sd">        ValueError: If any chain ids in the input models are no identical.</span>
-
-<span class="sd">    Returns:</span>
-<span class="sd">        A new model in which all chains are reindexed consistently.</span>
-<span class="sd">    &quot;&quot;&quot;</span>
-    <span class="c1"># Check that we have been given a homomer: All chain sequences must be identical,</span>
-    <span class="c1"># otherwise an error must be raised.</span>
-    <span class="n">model_1</span> <span class="o">=</span> <span class="n">read_model</span><span class="p">(</span><span class="n">input_model1</span><span class="p">,</span> <span class="n">suppress_warnings</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-    <span class="n">model_2</span> <span class="o">=</span> <span class="n">read_model</span><span class="p">(</span><span class="n">input_model2</span><span class="p">,</span> <span class="n">suppress_warnings</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-    <span class="k">if</span> <span class="nb">all</span><span class="p">(</span><span class="n">chain_id</span> <span class="ow">in</span> <span class="n">model_1</span><span class="o">.</span><span class="n">get_chains</span><span class="p">()</span> <span class="k">for</span> <span class="n">chain_id</span> <span class="ow">in</span> <span class="n">alignment_chain_ids</span><span class="p">)</span> <span class="ow">and</span> <span class="nb">all</span><span class="p">(</span><span class="n">chain_id</span> <span class="ow">in</span> <span class="n">model_2</span><span class="o">.</span><span class="n">get_chains</span><span class="p">()</span> <span class="k">for</span> <span class="n">chain_id</span> <span class="ow">in</span> <span class="n">alignment_chain_ids</span><span class="p">):</span>
-        <span class="n">aligned_model_1</span> <span class="o">=</span> <span class="n">usalign_models</span><span class="p">(</span>
-            <span class="n">moving_model</span><span class="o">=</span><span class="n">model_1</span><span class="p">,</span>
-            <span class="n">static_model</span><span class="o">=</span><span class="n">model_2</span><span class="p">,</span>
-            <span class="n">alignment_chain_ids</span><span class="o">=</span><span class="p">[</span><span class="n">alignment_chain_ids</span><span class="p">]</span>
-<span class="p">)</span>
-    <span class="k">else</span><span class="p">:</span>
-        <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span>
-            <span class="s2">&quot;chains don&#39;t match&quot;</span>
-        <span class="p">)</span>
-    <span class="n">rmsd_value</span> <span class="o">=</span> <span class="n">rmsd</span><span class="o">.</span><span class="n">compute_rmsd_between_models</span><span class="p">(</span><span class="n">aligned_model_1</span><span class="p">,</span> <span class="n">model_2</span><span class="p">,</span> <span class="n">chain_ids</span><span class="o">=</span><span class="p">[</span><span class="n">alignment_chain_ids</span><span class="p">])</span>
-
-    <span class="k">return</span> <span class="n">rmsd_value</span>
-</code></pre></div></td></tr></table></div>
-          </details>
-  </div>
-
-</div>
-
-
-
-  </div>
-
-  </div>
-
-</div>
+<h1 id="aligning-two-models-and-computing-rmsd">Aligning Two Models and Computing RMSD</h1>
+<h2 id="introduction">Introduction</h2>
+<p>When working with molecular structures or any other three-dimensional models, it's often necessary to align them to compare their similarities or differences. One common metric used to quantify the structural similarity between two models is the RMSD (Root Mean Square Deviation).</p>
+<h2 id="aligning-models">Aligning Models</h2>
+<p>Aligning two models involves finding the optimal rotation and translation that minimizes the differences between their corresponding atoms or points. This process ensures that similar parts of the models overlap as closely as possible.</p>
+<p>Various algorithms can be used to perform model alignment, such as the Kabsch algorithm or quaternion-based methods. These algorithms typically involve calculating the optimal rotation matrix and translation vector based on the coordinates of corresponding atoms.</p>
+<p><img alt="" src="../../assets/Alignment_of_thioredoxins2.png" /></p>
+<p>the image above shows structural alignment of thioredoxins from humans and the fly Drosophila melanogaster. The proteins are shown as ribbons, with the human protein in red, and the fly protein in yellow.</p>
+<h2 id="rmsd-calculation">RMSD Calculation</h2>
+<p>Once the models are aligned, the RMSD can be computed to quantify the average deviation between corresponding atoms or points. The RMSD formula is given by:</p>
 
 
 
