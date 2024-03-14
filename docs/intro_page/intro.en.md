@@ -15,5 +15,4 @@ Various algorithms can be used to perform model alignment, such as the Kabsch al
 the image above shows structural alignment of thioredoxins from humans and the fly Drosophila melanogaster. The proteins are shown as ribbons, with the human protein in red, and the fly protein in yellow.
 ## RMSD Calculation
 
-Once the models are aligned, the RMSD can be computed to quantify the average deviation between corresponding atoms or points. The RMSD formula is given by:
-
+Once the models are aligned, the RMSD can be computed to quantify the average deviation between corresponding atoms or points. 

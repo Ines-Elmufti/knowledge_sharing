@@ -15,5 +15,4 @@ Divers algorithmes peuvent être utilisés pour effectuer l'alignement des modè
 L'image ci-dessus montre l'alignement structural des thioredoxines humaines et de la drosophile Drosophila melanogaster. Les protéines sont représentées sous forme de rubans, avec la protéine humaine en rouge et la protéine de la drosophile en jaune.
 ## Calcul du RMSD
 
-Une fois que les modèles sont alignés, le RMSD peut être calculé pour quantifier l'écart moyen entre les atomes ou points correspondants. La formule du RMSD est donnée par :
-
+Une fois que les modèles sont alignés, le RMSD peut être calculé pour quantifier l'écart moyen entre les atomes ou points correspondants. 
