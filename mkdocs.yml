@@ -11,7 +11,26 @@ theme:
     - content.tabs.link
     - content.code.annotation
     - content.code.copy
-  language: en
+  plugins:
+  - search
+  - i18n:
+      docs_structure: suffix
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
+        - locale: fr
+          name: Français
+          build: true
+  - neoteroi.mkdocsoad
+  - mkdocstrings:
+      default_handler: python
+      handlers:
+        python:
+          paths: [scripts]
+          rendering:
+            show_source: true
   palette:
     - scheme: default
       toggle:
@@ -39,10 +58,8 @@ plugins:
         - locale: en
           default: true
           name: English
-          build: true
         - locale: fr
           name: Français
-          build: true
 - neoteroi.mkdocsoad
 - mkdocstrings:
       default_handler: python
