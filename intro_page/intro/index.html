@@ -9,8 +9,8 @@
       
       
       
-        <link rel="prev" href="../../scripts/compute_rmsd/">
       
+        <link rel="next" href="../../scripts/compute_rmsd/">
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
@@ -72,6 +72,11 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
+      
+        
+        <a href="#aligning-two-models-and-computing-rmsd" class="md-skip">
+          Skip to content
+        </a>
       
     </div>
     <div data-md-component="announce">
@@ -224,23 +229,6 @@
         
   
   
-  
-    <li class="md-tabs__item">
-      <a href="../../scripts/compute_rmsd/" class="md-tabs__link">
-        
-  
-    
-  
-  scripts
-
-      </a>
-    </li>
-  
-
-      
-        
-  
-  
     
   
   
@@ -251,6 +239,23 @@
     
   
   Introduction
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../scripts/compute_rmsd/" class="md-tabs__link">
+        
+  
+    
+  
+  scripts
 
       </a>
     </li>
@@ -296,6 +301,93 @@
       
   
   
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Introduction
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Introduction
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introduction
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#aligning-models" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aligning Models
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rmsd-calculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      RMSD Calculation
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
   
   
     <li class="md-nav__item">
@@ -308,34 +400,6 @@
   
 
       </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-    
-  
-  
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
-        
-  
-  <span class="md-ellipsis">
-    Introduction
-  </span>
-  
-
-      </a>
-      
     </li>
   
 
@@ -355,9 +419,16 @@
                   
 
 
-  <h1>Introduction</h1>
-
-<p>hello</p>
+<h1 id="aligning-two-models-and-computing-rmsd">Aligning Two Models and Computing RMSD</h1>
+<h2 id="introduction">Introduction</h2>
+<p>When working with molecular structures or any other three-dimensional models, it's often necessary to align them to compare their similarities or differences. One common metric used to quantify the structural similarity between two models is the RMSD (Root Mean Square Deviation).</p>
+<h2 id="aligning-models">Aligning Models</h2>
+<p>Aligning two models involves finding the optimal rotation and translation that minimizes the differences between their corresponding atoms or points. This process ensures that similar parts of the models overlap as closely as possible.</p>
+<p>Various algorithms can be used to perform model alignment, such as the Kabsch algorithm or quaternion-based methods. These algorithms typically involve calculating the optimal rotation matrix and translation vector based on the coordinates of corresponding atoms.</p>
+<p><img alt="" src="../../assets/Alignment_of_thioredoxins2.png" /></p>
+<p>the image above shows structural alignment of thioredoxins from humans and the fly Drosophila melanogaster. The proteins are shown as ribbons, with the human protein in red, and the fly protein in yellow.</p>
+<h2 id="rmsd-calculation">RMSD Calculation</h2>
+<p>Once the models are aligned, the RMSD can be computed to quantify the average deviation between corresponding atoms or points. The RMSD formula is given by:</p>
 
 
 

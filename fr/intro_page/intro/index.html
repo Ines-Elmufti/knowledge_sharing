@@ -9,8 +9,8 @@
       
       
       
-        <link rel="prev" href="../../scripts/compute_rmsd/">
       
+        <link rel="next" href="../../scripts/compute_rmsd/">
       
       
       <link rel="icon" href="../../../assets/images/favicon.png">
@@ -74,6 +74,11 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
+      
+        
+        <a href="#alignement-de-deux-modeles-et-calcul-du-rmsd" class="md-skip">
+          Aller au contenu
+        </a>
       
     </div>
     <div data-md-component="announce">
@@ -226,23 +231,6 @@
         
   
   
-  
-    <li class="md-tabs__item">
-      <a href="../../scripts/compute_rmsd/" class="md-tabs__link">
-        
-  
-    
-  
-  scripts
-
-      </a>
-    </li>
-  
-
-      
-        
-  
-  
     
   
   
@@ -253,6 +241,23 @@
     
   
   Introduction
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../scripts/compute_rmsd/" class="md-tabs__link">
+        
+  
+    
+  
+  scripts
 
       </a>
     </li>
@@ -298,6 +303,93 @@
       
   
   
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Introduction
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Introduction
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introduction
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#alignement-des-modeles" class="md-nav__link">
+    <span class="md-ellipsis">
+      Alignement des Modèles
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#calcul-du-rmsd" class="md-nav__link">
+    <span class="md-ellipsis">
+      Calcul du RMSD
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
   
   
     <li class="md-nav__item">
@@ -310,34 +402,6 @@
   
 
       </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-    
-  
-  
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
-        
-  
-  <span class="md-ellipsis">
-    Introduction
-  </span>
-  
-
-      </a>
-      
     </li>
   
 
@@ -357,9 +421,16 @@
                   
 
 
-  <h1>Introduction</h1>
-
-<p>salut</p>
+<h1 id="alignement-de-deux-modeles-et-calcul-du-rmsd">Alignement de Deux Modèles et Calcul du RMSD</h1>
+<h2 id="introduction">Introduction</h2>
+<p>Lorsque l'on travaille avec des structures moléculaires ou tout autre modèle tridimensionnel, il est souvent nécessaire de les aligner pour comparer leurs similitudes ou différences. Une métrique courante utilisée pour quantifier la similarité structurale entre deux modèles est le RMSD (Root Mean Square Deviation, ou Écart quadratique moyen).</p>
+<h2 id="alignement-des-modeles">Alignement des Modèles</h2>
+<p>L'alignement de deux modèles consiste à trouver la rotation et la translation optimales qui minimisent les différences entre leurs atomes ou points correspondants. Ce processus garantit que les parties similaires des modèles se chevauchent le plus étroitement possible.</p>
+<p>Divers algorithmes peuvent être utilisés pour effectuer l'alignement des modèles, tels que l'algorithme de Kabsch ou les méthodes basées sur les quaternions. Ces algorithmes impliquent généralement le calcul de la matrice de rotation optimale et du vecteur de translation en fonction des coordonnées des atomes correspondants.</p>
+<p><img alt="alt text for screen readers" src="../../assets/Alignment_of_thioredoxins2.png" /></p>
+<p>L'image ci-dessus montre l'alignement structural des thioredoxines humaines et de la drosophile Drosophila melanogaster. Les protéines sont représentées sous forme de rubans, avec la protéine humaine en rouge et la protéine de la drosophile en jaune.</p>
+<h2 id="calcul-du-rmsd">Calcul du RMSD</h2>
+<p>Une fois que les modèles sont alignés, le RMSD peut être calculé pour quantifier l'écart moyen entre les atomes ou points correspondants. La formule du RMSD est donnée par :</p>
 
 
 
