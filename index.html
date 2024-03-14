@@ -72,7 +72,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#welcome" class="md-skip">
+        <a href="#aligning-two-models-and-computing-rmsd" class="md-skip">
           Skip to content
         </a>
       
@@ -106,7 +106,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Welcome
+              Aligning Two Models and Computing RMSD
             
           </span>
         </div>
@@ -348,8 +348,16 @@
                   
 
 
-<h1 id="welcome">Welcome</h1>
-<p>This is the home page. it serves as the gateway to our project, offering a comprehensive overview and detailed explanation of its purpose, objectives, and requirements.</p>
+<h1 id="aligning-two-models-and-computing-rmsd">Aligning Two Models and Computing RMSD</h1>
+<h2 id="introduction">Introduction</h2>
+<p>When working with molecular structures or any other three-dimensional models, it's often necessary to align them to compare their similarities or differences. One common metric used to quantify the structural similarity between two models is the RMSD (Root Mean Square Deviation).</p>
+<h2 id="aligning-models">Aligning Models</h2>
+<p>Aligning two models involves finding the optimal rotation and translation that minimizes the differences between their corresponding atoms or points. This process ensures that similar parts of the models overlap as closely as possible.</p>
+<p>Various algorithms can be used to perform model alignment, such as the Kabsch algorithm or quaternion-based methods. These algorithms typically involve calculating the optimal rotation matrix and translation vector based on the coordinates of corresponding atoms.</p>
+<p><img alt="" src="../assets/Alignment_of_thioredoxins2.png" /></p>
+<p>the image above shows structural alignment of thioredoxins from humans and the fly Drosophila melanogaster. The proteins are shown as ribbons, with the human protein in red, and the fly protein in yellow.</p>
+<h2 id="rmsd-calculation">RMSD Calculation</h2>
+<p>Once the models are aligned, the RMSD can be computed to quantify the average deviation between corresponding atoms or points.</p>
 
 
 
