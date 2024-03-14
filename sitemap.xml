@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
-        <loc>Nonehome/</loc>
+        <loc>None./</loc>
         <lastmod>2024-03-14</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Nonehome/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="Nonefr/home/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="None"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="Nonefr/"/>
     </url>
     <url>
         <loc>Nonehome_page/home/</loc>
@@ -22,11 +22,11 @@
         <xhtml:link rel="alternate" hreflang="fr" href="Nonefr/scripts/compute_rmsd/"/>
     </url>
     <url>
-        <loc>Nonefr/home/</loc>
+        <loc>Nonefr/</loc>
         <lastmod>2024-03-14</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="fr" href="Nonefr/home/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Nonehome/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="Nonefr/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="None"/>
     </url>
     <url>
         <loc>Nonefr/home_page/home/</loc>
