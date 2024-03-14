@@ -1,3 +1,57 @@
 site_name: My Docs
-# theme:
-  # name: material
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+  language: en
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline 
+        name: Switch to dark mode
+      primary: blue
+      accent: purple 
+    - scheme: slate 
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode    
+      primary: black
+      accent: lime
+
+extra_css:
+  - css/neoteroi-mkdocs.css  
+markdown_extensions:
+  - pymdownx.emoji
+
+plugins:
+- search
+- i18n:
+      docs_structure: suffix
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
+        - locale: fr
+          name: Français
+          build: true
+- neoteroi.mkdocsoad
+- mkdocstrings:
+      default_handler: python
+      handlers:
+        python:
+          paths: [scripts]
+          rendering:
+            show_source: true
+
+nav:
+  - Home: index.md
+  - scripts: scripts/compute_rmsd.md
