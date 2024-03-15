@@ -39,24 +39,6 @@ extra_css:
 markdown_extensions:
   - pymdownx.emoji
 
-plugins:
-- search
-- i18n:
-      docs_structure: suffix
-      languages:
-        - locale: en
-          default: true
-          name: English
-        - locale: fr
-          name: Français
-- neoteroi.mkdocsoad
-- mkdocstrings:
-      default_handler: python
-      handlers:
-        python:
-          paths: [scripts]
-          rendering:
-            show_source: true
 
 nav:
   - Introduction: intro_page/intro.md
