@@ -15,6 +15,20 @@
         <xhtml:link rel="alternate" hreflang="fr" href="Nonefr/intro_page/intro/"/>
     </url>
     <url>
+        <loc>Nonescripts/Sequence%20Manipulation/transcription/</loc>
+        <lastmod>2024-03-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonescripts/Sequence%20Manipulation/transcription/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="Nonefr/scripts/Sequence%20Manipulation/transcription/"/>
+    </url>
+    <url>
+        <loc>Nonescripts/Sequence%20Manipulation/translation/</loc>
+        <lastmod>2024-03-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonescripts/Sequence%20Manipulation/translation/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="Nonefr/scripts/Sequence%20Manipulation/translation/"/>
+    </url>
+    <url>
         <loc>Nonescripts/filtering/filter_structure/</loc>
         <lastmod>2024-03-15</lastmod>
         <changefreq>daily</changefreq>
@@ -43,6 +57,20 @@
         <xhtml:link rel="alternate" hreflang="fr" href="Nonefr/scripts/scores/compute_similarity_score/"/>
     </url>
     <url>
+        <loc>Nonescripts/sequence_analysis/analyze_seq/</loc>
+        <lastmod>2024-03-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonescripts/sequence_analysis/analyze_seq/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="Nonefr/scripts/sequence_analysis/analyze_seq/"/>
+    </url>
+    <url>
+        <loc>Nonescripts/structure_analysis/analyze_structure/</loc>
+        <lastmod>2024-03-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonescripts/structure_analysis/analyze_structure/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="Nonefr/scripts/structure_analysis/analyze_structure/"/>
+    </url>
+    <url>
         <loc>Nonefr/</loc>
         <lastmod>2024-03-15</lastmod>
         <changefreq>daily</changefreq>
@@ -55,6 +83,20 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="fr" href="Nonefr/intro_page/intro/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Noneintro_page/intro/"/>
+    </url>
+    <url>
+        <loc>Nonefr/scripts/Sequence%20Manipulation/transcription/</loc>
+        <lastmod>2024-03-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="Nonefr/scripts/Sequence%20Manipulation/transcription/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonescripts/Sequence%20Manipulation/transcription/"/>
+    </url>
+    <url>
+        <loc>Nonefr/scripts/Sequence%20Manipulation/translation/</loc>
+        <lastmod>2024-03-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="Nonefr/scripts/Sequence%20Manipulation/translation/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonescripts/Sequence%20Manipulation/translation/"/>
     </url>
     <url>
         <loc>Nonefr/scripts/filtering/filter_structure/</loc>
@@ -83,5 +125,19 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="fr" href="Nonefr/scripts/scores/compute_similarity_score/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonescripts/scores/compute_similarity_score/"/>
+    </url>
+    <url>
+        <loc>Nonefr/scripts/sequence_analysis/analyze_seq/</loc>
+        <lastmod>2024-03-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="Nonefr/scripts/sequence_analysis/analyze_seq/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonescripts/sequence_analysis/analyze_seq/"/>
+    </url>
+    <url>
+        <loc>Nonefr/scripts/structure_analysis/analyze_structure/</loc>
+        <lastmod>2024-03-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="Nonefr/scripts/structure_analysis/analyze_structure/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonescripts/structure_analysis/analyze_structure/"/>
     </url>
 </urlset>
