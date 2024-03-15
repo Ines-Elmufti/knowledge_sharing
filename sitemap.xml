@@ -15,32 +15,32 @@
         <xhtml:link rel="alternate" hreflang="fr" href="Nonefr/intro_page/intro/"/>
     </url>
     <url>
-        <loc>Nonescripts/compute_rmsd/</loc>
+        <loc>Nonescripts/filtering/filter_structure/</loc>
         <lastmod>2024-03-15</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Nonescripts/compute_rmsd/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="Nonefr/scripts/compute_rmsd/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonescripts/filtering/filter_structure/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="Nonefr/scripts/filtering/filter_structure/"/>
     </url>
     <url>
-        <loc>Nonescripts/compute_similarity_score/</loc>
+        <loc>Nonescripts/filtering/reindex_homomer_chains/</loc>
         <lastmod>2024-03-15</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Nonescripts/compute_similarity_score/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="Nonefr/scripts/compute_similarity_score/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonescripts/filtering/reindex_homomer_chains/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="Nonefr/scripts/filtering/reindex_homomer_chains/"/>
     </url>
     <url>
-        <loc>Nonescripts/filter_structure/</loc>
+        <loc>Nonescripts/scores/compute_rmsd/</loc>
         <lastmod>2024-03-15</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Nonescripts/filter_structure/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="Nonefr/scripts/filter_structure/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonescripts/scores/compute_rmsd/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="Nonefr/scripts/scores/compute_rmsd/"/>
     </url>
     <url>
-        <loc>Nonescripts/reindex_homomer_chains/</loc>
+        <loc>Nonescripts/scores/compute_similarity_score/</loc>
         <lastmod>2024-03-15</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Nonescripts/reindex_homomer_chains/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="Nonefr/scripts/reindex_homomer_chains/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonescripts/scores/compute_similarity_score/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="Nonefr/scripts/scores/compute_similarity_score/"/>
     </url>
     <url>
         <loc>Nonefr/</loc>
@@ -57,31 +57,31 @@
         <xhtml:link rel="alternate" hreflang="en" href="Noneintro_page/intro/"/>
     </url>
     <url>
-        <loc>Nonefr/scripts/compute_rmsd/</loc>
+        <loc>Nonefr/scripts/filtering/filter_structure/</loc>
         <lastmod>2024-03-15</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="fr" href="Nonefr/scripts/compute_rmsd/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Nonescripts/compute_rmsd/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="Nonefr/scripts/filtering/filter_structure/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonescripts/filtering/filter_structure/"/>
     </url>
     <url>
-        <loc>Nonefr/scripts/compute_similarity_score/</loc>
+        <loc>Nonefr/scripts/filtering/reindex_homomer_chains/</loc>
         <lastmod>2024-03-15</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="fr" href="Nonefr/scripts/compute_similarity_score/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Nonescripts/compute_similarity_score/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="Nonefr/scripts/filtering/reindex_homomer_chains/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonescripts/filtering/reindex_homomer_chains/"/>
     </url>
     <url>
-        <loc>Nonefr/scripts/filter_structure/</loc>
+        <loc>Nonefr/scripts/scores/compute_rmsd/</loc>
         <lastmod>2024-03-15</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="fr" href="Nonefr/scripts/filter_structure/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Nonescripts/filter_structure/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="Nonefr/scripts/scores/compute_rmsd/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonescripts/scores/compute_rmsd/"/>
     </url>
     <url>
-        <loc>Nonefr/scripts/reindex_homomer_chains/</loc>
+        <loc>Nonefr/scripts/scores/compute_similarity_score/</loc>
         <lastmod>2024-03-15</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="fr" href="Nonefr/scripts/reindex_homomer_chains/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Nonescripts/reindex_homomer_chains/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="Nonefr/scripts/scores/compute_similarity_score/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonescripts/scores/compute_similarity_score/"/>
     </url>
 </urlset>
