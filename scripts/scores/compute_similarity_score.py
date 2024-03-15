@@ -1,5 +1,6 @@
 from Bio import pairwise2
 from bioblocks.blocks.model import Model
+from bioblocks.io import read_model, write_model
 
 
 def similarity_score(input_model1: Model, input_model2: Model) -> tuple:
