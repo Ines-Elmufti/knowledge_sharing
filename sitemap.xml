@@ -43,6 +43,13 @@
         <xhtml:link rel="alternate" hreflang="fr" href="Nonefr/scripts/filtering/reindex_homomer_chains/"/>
     </url>
     <url>
+        <loc>Nonescripts/generate_idps/generate_conformers/</loc>
+        <lastmod>2024-03-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonescripts/generate_idps/generate_conformers/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="Nonefr/scripts/generate_idps/generate_conformers/"/>
+    </url>
+    <url>
         <loc>Nonescripts/scores/compute_rmsd/</loc>
         <lastmod>2024-03-15</lastmod>
         <changefreq>daily</changefreq>
@@ -111,6 +118,13 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="fr" href="Nonefr/scripts/filtering/reindex_homomer_chains/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonescripts/filtering/reindex_homomer_chains/"/>
+    </url>
+    <url>
+        <loc>Nonefr/scripts/generate_idps/generate_conformers/</loc>
+        <lastmod>2024-03-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="Nonefr/scripts/generate_idps/generate_conformers/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonescripts/generate_idps/generate_conformers/"/>
     </url>
     <url>
         <loc>Nonefr/scripts/scores/compute_rmsd/</loc>
