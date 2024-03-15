@@ -2,44 +2,156 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
         <loc>None./</loc>
-        <lastmod>2024-03-14</lastmod>
+        <lastmod>2024-03-15</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="None"/>
         <xhtml:link rel="alternate" hreflang="fr" href="Nonefr/"/>
     </url>
     <url>
         <loc>Noneintro_page/intro/</loc>
-        <lastmod>2024-03-14</lastmod>
+        <lastmod>2024-03-15</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Noneintro_page/intro/"/>
         <xhtml:link rel="alternate" hreflang="fr" href="Nonefr/intro_page/intro/"/>
     </url>
     <url>
-        <loc>Nonescripts/compute_rmsd/</loc>
-        <lastmod>2024-03-14</lastmod>
+        <loc>Nonescripts/Sequence%20Manipulation/transcription/</loc>
+        <lastmod>2024-03-15</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Nonescripts/compute_rmsd/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="Nonefr/scripts/compute_rmsd/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonescripts/Sequence%20Manipulation/transcription/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="Nonefr/scripts/Sequence%20Manipulation/transcription/"/>
+    </url>
+    <url>
+        <loc>Nonescripts/Sequence%20Manipulation/translation/</loc>
+        <lastmod>2024-03-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonescripts/Sequence%20Manipulation/translation/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="Nonefr/scripts/Sequence%20Manipulation/translation/"/>
+    </url>
+    <url>
+        <loc>Nonescripts/filtering/filter_structure/</loc>
+        <lastmod>2024-03-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonescripts/filtering/filter_structure/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="Nonefr/scripts/filtering/filter_structure/"/>
+    </url>
+    <url>
+        <loc>Nonescripts/filtering/reindex_homomer_chains/</loc>
+        <lastmod>2024-03-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonescripts/filtering/reindex_homomer_chains/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="Nonefr/scripts/filtering/reindex_homomer_chains/"/>
+    </url>
+    <url>
+        <loc>Nonescripts/generate_idps/generate_conformers/</loc>
+        <lastmod>2024-03-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonescripts/generate_idps/generate_conformers/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="Nonefr/scripts/generate_idps/generate_conformers/"/>
+    </url>
+    <url>
+        <loc>Nonescripts/scores/compute_rmsd/</loc>
+        <lastmod>2024-03-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonescripts/scores/compute_rmsd/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="Nonefr/scripts/scores/compute_rmsd/"/>
+    </url>
+    <url>
+        <loc>Nonescripts/scores/compute_similarity_score/</loc>
+        <lastmod>2024-03-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonescripts/scores/compute_similarity_score/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="Nonefr/scripts/scores/compute_similarity_score/"/>
+    </url>
+    <url>
+        <loc>Nonescripts/sequence_analysis/analyze_seq/</loc>
+        <lastmod>2024-03-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonescripts/sequence_analysis/analyze_seq/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="Nonefr/scripts/sequence_analysis/analyze_seq/"/>
+    </url>
+    <url>
+        <loc>Nonescripts/structure_analysis/analyze_structure/</loc>
+        <lastmod>2024-03-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonescripts/structure_analysis/analyze_structure/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="Nonefr/scripts/structure_analysis/analyze_structure/"/>
     </url>
     <url>
         <loc>Nonefr/</loc>
-        <lastmod>2024-03-14</lastmod>
+        <lastmod>2024-03-15</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="fr" href="Nonefr/"/>
         <xhtml:link rel="alternate" hreflang="en" href="None"/>
     </url>
     <url>
         <loc>Nonefr/intro_page/intro/</loc>
-        <lastmod>2024-03-14</lastmod>
+        <lastmod>2024-03-15</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="fr" href="Nonefr/intro_page/intro/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Noneintro_page/intro/"/>
     </url>
     <url>
-        <loc>Nonefr/scripts/compute_rmsd/</loc>
-        <lastmod>2024-03-14</lastmod>
+        <loc>Nonefr/scripts/Sequence%20Manipulation/transcription/</loc>
+        <lastmod>2024-03-15</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="fr" href="Nonefr/scripts/compute_rmsd/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Nonescripts/compute_rmsd/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="Nonefr/scripts/Sequence%20Manipulation/transcription/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonescripts/Sequence%20Manipulation/transcription/"/>
+    </url>
+    <url>
+        <loc>Nonefr/scripts/Sequence%20Manipulation/translation/</loc>
+        <lastmod>2024-03-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="Nonefr/scripts/Sequence%20Manipulation/translation/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonescripts/Sequence%20Manipulation/translation/"/>
+    </url>
+    <url>
+        <loc>Nonefr/scripts/filtering/filter_structure/</loc>
+        <lastmod>2024-03-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="Nonefr/scripts/filtering/filter_structure/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonescripts/filtering/filter_structure/"/>
+    </url>
+    <url>
+        <loc>Nonefr/scripts/filtering/reindex_homomer_chains/</loc>
+        <lastmod>2024-03-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="Nonefr/scripts/filtering/reindex_homomer_chains/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonescripts/filtering/reindex_homomer_chains/"/>
+    </url>
+    <url>
+        <loc>Nonefr/scripts/generate_idps/generate_conformers/</loc>
+        <lastmod>2024-03-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="Nonefr/scripts/generate_idps/generate_conformers/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonescripts/generate_idps/generate_conformers/"/>
+    </url>
+    <url>
+        <loc>Nonefr/scripts/scores/compute_rmsd/</loc>
+        <lastmod>2024-03-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="Nonefr/scripts/scores/compute_rmsd/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonescripts/scores/compute_rmsd/"/>
+    </url>
+    <url>
+        <loc>Nonefr/scripts/scores/compute_similarity_score/</loc>
+        <lastmod>2024-03-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="Nonefr/scripts/scores/compute_similarity_score/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonescripts/scores/compute_similarity_score/"/>
+    </url>
+    <url>
+        <loc>Nonefr/scripts/sequence_analysis/analyze_seq/</loc>
+        <lastmod>2024-03-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="Nonefr/scripts/sequence_analysis/analyze_seq/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonescripts/sequence_analysis/analyze_seq/"/>
+    </url>
+    <url>
+        <loc>Nonefr/scripts/structure_analysis/analyze_structure/</loc>
+        <lastmod>2024-03-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="Nonefr/scripts/structure_analysis/analyze_structure/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonescripts/structure_analysis/analyze_structure/"/>
     </url>
 </urlset>

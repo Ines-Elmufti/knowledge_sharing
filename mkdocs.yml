@@ -1,16 +1,6 @@
 site_name: My Docs
 theme:
   name: material
-  features:
-    - navigation.tabs
-    - navigation.sections
-    - toc.integrate
-    - navigation.top
-    - search.suggest
-    - search.highlight
-    - content.tabs.link
-    - content.code.annotation
-    - content.code.copy
   plugins:
   - search
   - i18n:
@@ -71,4 +61,15 @@ plugins:
 
 nav:
   - Introduction: intro_page/intro.md
-  - scripts: scripts/compute_rmsd.md
+  - Filtering: 
+    - scripts/filtering/reindex_homomer_chains.md
+    - scripts/filtering/filter_structure.md
+  - Scores: 
+    - scripts/scores/compute_rmsd.md
+    - scripts/scores/compute_similarity_score.md
+  - Sequence Alanysis: scripts/sequence_analysis/analyze_seq.md
+  - Structure Analysis: scripts/structure_analysis/analyze_structure.md
+  - Generate IDPs: scripts/generate_ipds/generate_conformers.md
+
+copyright: |
+  &copy; 2023 <a href="https://github.com/Ines-Elmufti"  target="_blank" rel="noopener">Ines Elmufti</a>

@@ -5,7 +5,7 @@ from bioblocks.geometry import compute_rmsd
 from bioblocks.io import read_model, write_model
 from bioblocks.transform import filter_atoms, filter_chains, filter_residues, rename_chains
 
-def compute_rmsd_value(input_model1: Model, input_model2: Model, alignment_chain_ids:list) -> Model:
+def rmsd_value(input_model1: Model, input_model2: Model, alignment_chain_ids:list) -> Model:
     """Align models and compute RMSD value .
 
     Args:
@@ -19,8 +19,7 @@ def compute_rmsd_value(input_model1: Model, input_model2: Model, alignment_chain
     Returns:
         A new model in which all chains are reindexed consistently.
     """
-    # Check that we have been given a homomer: All chain sequences must be identical,
-    # otherwise an error must be raised.
+   
     model_1 = read_model(input_model1, suppress_warnings=True)
     model_2 = read_model(input_model2, suppress_warnings=True)
     if all(chain_id in model_1.get_chains() for chain_id in alignment_chain_ids) and all(chain_id in model_2.get_chains() for chain_id in alignment_chain_ids):

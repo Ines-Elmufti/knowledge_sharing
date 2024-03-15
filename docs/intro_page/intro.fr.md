@@ -1,6 +1,12 @@
-# Alignement de Deux Modèles et Calcul du RMSD
+# Introduction
 
-## Introduction
+Dans le domaine de la biologie computationnelle et de la bioinformatique, l'alignement de deux modèles et le calcul des similarités sont des tâches fondamentales. Ce processus nous permet de comparer les structures de biomolécules, telles que les protéines ou les acides nucléiques, et d'identifier les similarités ou les différences qui peuvent fournir des informations sur leurs fonctions et leurs interactions.
+
+Dans cette section, nous explorerons le concept d'alignement de deux modèles et de calcul des similarités dans le contexte de la bioinformatique et de la modélisation moléculaire.
+![](../assets/Bioinformatics_Banner_1140x400.webp)
+# Alignement de Deux Modèles et Calcul des Similarités
+
+## Contexte
 
 Lorsque l'on travaille avec des structures moléculaires ou tout autre modèle tridimensionnel, il est souvent nécessaire de les aligner pour comparer leurs similitudes ou différences. Une métrique courante utilisée pour quantifier la similarité structurale entre deux modèles est le RMSD (Root Mean Square Deviation, ou Écart quadratique moyen).
 
